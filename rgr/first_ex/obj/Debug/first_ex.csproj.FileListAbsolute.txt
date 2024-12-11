@@ -1,0 +1,7 @@
+C:\Users\Егор\Desktop\Uni\RGR\RGR\rgr\first_ex\bin\Debug\first_ex.exe.config
+C:\Users\Егор\Desktop\Uni\RGR\RGR\rgr\first_ex\bin\Debug\first_ex.exe
+C:\Users\Егор\Desktop\Uni\RGR\RGR\rgr\first_ex\bin\Debug\first_ex.pdb
+C:\Users\Егор\Desktop\Uni\RGR\RGR\rgr\first_ex\obj\Debug\first_ex.csproj.AssemblyReference.cache
+C:\Users\Егор\Desktop\Uni\RGR\RGR\rgr\first_ex\obj\Debug\first_ex.csproj.CoreCompileInputs.cache
+C:\Users\Егор\Desktop\Uni\RGR\RGR\rgr\first_ex\obj\Debug\first_ex.exe
+C:\Users\Егор\Desktop\Uni\RGR\RGR\rgr\first_ex\obj\Debug\first_ex.pdb
