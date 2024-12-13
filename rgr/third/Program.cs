@@ -4,40 +4,44 @@ class thr
 {
     static void Main()
     {
-        int N = 3;
-        int M = 1;
-        int arrow = 1;
-        int cd1 = 1, cd2 = 1, start = 1;
-        Console.WriteLine("начальные координаты: (" + cd1 + ", " + cd2 + ")");
-        while (M > 0)
+        string[] files = System.IO.Directory.GetFiles("../../rubik");
+        for (int i = 0; i < files.Length / 2; i++)
         {
-            if (arrow == 1)
+            string[] file = System.IO.File.ReadAllLines(files[i]);
+            string[] content = file[1].Split(' ');
+            int N = int.Parse(file[0].Split(' ')[0]), M = int.Parse(file[0].Split(' ')[1]);
+            int x = int.Parse(content[0]), y = int.Parse(content[1]), z = int.Parse(content[2]);
+            for (int j = 2; j < M; j++)
             {
-                Calc(ref cd1, ref cd2, start, N);
-            } else
-            {
-                for (int i = 0; i < 3; i++)
-                    Calc(ref cd1, ref cd2, start, N);
+                string[] action = file[j].Split(' ');
+                if (action[0] == "Z")
+                {
+                    int[] a = Calc(x, y, N, int.Parse(action[2]));
+                    x = a[0];
+                    y = a[1];
+                }
+                else if (action[0] == "X")
+                {
+                    int[] a = Calc(y, z, N, int.Parse(action[2]));
+                    y = a[0];
+                    z = a[1];
+                }
+                else if (action[0] == "Y")
+                {
+                    int[] a = Calc(z, x, N, int.Parse(action[2]));
+                    z = a[0];
+                    x = a[1];
+                }
             }
-            M -= 1;
+            Console.WriteLine($"Мой ответ: X: {x} Y: {y} Z: {z} | Входящий файл: {files[i]}");
+            Console.WriteLine("Ответы: " + System.IO.File.ReadAllText(files[i + 20]) + $" | Файл с ответами {files[i + 20]}");
         }
-        Console.WriteLine("конечные координаты: (" + cd1 + ", " + cd2 + ")");
     }
-    static void Calc(ref int cd1, ref int cd2, int start, int N)
+    static int[] Calc(int cord1, int cord2, int N, int dir)
     {
-        if (cd1 > cd2)
-        {
-            cd2 = cd1;
-            cd1 = cd2 == 1 ? N : (N - start + 1);
-        }
-        else if (cd1 == cd2)
-        {
-            cd2 = cd1;
-            cd1 = cd1 == 1 ? N : 1;
-        }
-        else
-        {
-            cd1 = cd1 - 1 <= 0 ? start : 1;
-        }
+        int num1, num2;
+        num1 = (dir == 1) ? cord2 : (N - cord2 + 1);
+        num2 = (dir == 1) ? (N - cord1 + 1) : cord1;
+        return new int[] { num1, num2 };
     }
 }
