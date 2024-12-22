@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\ogyrc\\Desktop\\unik doma\\RGR\\rgr\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{59CBE4DB-3C1A-4BC6-B653-A273EBF5018A}|fourth\\fourth.csproj|c:\\users\\ogyrc\\desktop\\unik doma\\rgr\\rgr\\fourth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59CBE4DB-3C1A-4BC6-B653-A273EBF5018A}|fourth\\fourth.csproj|solutionrelative:fourth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B6FE1B2F-1513-4CEB-896C-207158B157A5}|third\\third.csproj|c:\\users\\ogyrc\\desktop\\unik doma\\rgr\\rgr\\third\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6FE1B2F-1513-4CEB-896C-207158B157A5}|third\\third.csproj|solutionrelative:third\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -20,11 +24,24 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ogyrc\\Desktop\\unik doma\\RGR\\rgr\\fourth\\Program.cs",
+              "RelativeDocumentMoniker": "fourth\\Program.cs",
+              "ToolTip": "C:\\Users\\ogyrc\\Desktop\\unik doma\\RGR\\rgr\\fourth\\Program.cs",
+              "RelativeToolTip": "fourth\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T07:45:45.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ogyrc\\Desktop\\unik doma\\RGR\\rgr\\third\\Program.cs",
               "RelativeDocumentMoniker": "third\\Program.cs",
               "ToolTip": "C:\\Users\\ogyrc\\Desktop\\unik doma\\RGR\\rgr\\third\\Program.cs",
               "RelativeToolTip": "third\\Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowDUAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-13T14:08:05.598Z",
               "EditorCaption": ""
