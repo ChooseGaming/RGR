@@ -1,2 +1,9 @@
 C:\Users\ogyrc\Desktop\unik doma\RGR\rgr\fourth\obj\Debug\fourth.csproj.AssemblyReference.cache
 C:\Users\ogyrc\Desktop\unik doma\RGR\rgr\fourth\obj\Debug\fourth.csproj.CoreCompileInputs.cache
+C:\Users\Егор\Desktop\Uni\RGR\RGR\rgr\fourth\bin\Debug\fourth.exe.config
+C:\Users\Егор\Desktop\Uni\RGR\RGR\rgr\fourth\bin\Debug\fourth.exe
+C:\Users\Егор\Desktop\Uni\RGR\RGR\rgr\fourth\bin\Debug\fourth.pdb
+C:\Users\Егор\Desktop\Uni\RGR\RGR\rgr\fourth\obj\Debug\fourth.csproj.AssemblyReference.cache
+C:\Users\Егор\Desktop\Uni\RGR\RGR\rgr\fourth\obj\Debug\fourth.csproj.CoreCompileInputs.cache
+C:\Users\Егор\Desktop\Uni\RGR\RGR\rgr\fourth\obj\Debug\fourth.exe
+C:\Users\Егор\Desktop\Uni\RGR\RGR\rgr\fourth\obj\Debug\fourth.pdb
