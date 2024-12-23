@@ -2,49 +2,57 @@
 
 class thr
 {
+    static int[] Calc(int cord1, int cord2, int N, int dir)
+    {
+        int num1, num2;
+        if (dir == 1)
+        {
+            num1 = cord2;
+            num2 = N - cord1 + 1;
+        } else
+        {
+            num1 = N - cord2 + 1;
+            num2 = cord1;
+        }
+        return new int[] { num1, num2 };
+    }
     static void Main()
     {
-        string[] files = System.IO.Directory.GetFiles("../../rubik");
-        for (int i = 0; i < files.Length / 2; i++)
+        const string PATH = "../../rubik";
+        System.IO.FileInfo[] FileNames = new System.IO.DirectoryInfo(PATH).GetFiles();
+        for (int j = 0; j < FileNames.Length / 2; j++)
         {
-            string[] file = System.IO.File.ReadAllLines(files[i]);
-            string[] content = file[1].Split(' ');
-            int N = int.Parse(file[0].Split(' ')[0]), M = int.Parse(file[0].Split(' ')[1]);
-            int x = int.Parse(content[0]), y = int.Parse(content[1]), z = int.Parse(content[2]);
-            for (int j = 2; j <= M+1; j++)
+            string[] file = System.IO.File.ReadAllLines(PATH + "/" + FileNames[j].ToString());
+            string[] NM = file[0].Split(' ');
+            string[] xyz = file[1].Split(' ');
+
+            int x = int.Parse(xyz[0]), y = int.Parse(xyz[1]), z = int.Parse(xyz[2]);
+            int N = int.Parse(NM[0]), M = int.Parse(NM[1]);
+
+            for (int i = 0; i < M; i++)
             {
-                string[] action = file[j].Split(' ');
-                if (action[0] == "Z")
+                string[] actions = file[i + 2].Split(' ');
+                if (actions[0] == "Z" && int.Parse(actions[1]) == z)
                 {
-                    int[] a = Calc(x, y, z , N, int.Parse(action[2]), int.Parse(action[1]));
+                    int[] a = Calc(x, y, N, int.Parse(actions[2]));
                     x = a[0];
                     y = a[1];
                 }
-                else if (action[0] == "X")
+                else if (actions[0] == "X" && int.Parse(actions[1]) == x)
                 {
-                    int[] a = Calc(y, z, x, N, int.Parse(action[2]), int.Parse(action[1]));
+                    int[] a = Calc(y, z, N, int.Parse(actions[2]));
                     y = a[0];
                     z = a[1];
                 }
-                else if (action[0] == "Y")
+                else if (actions[0] == "Y" && int.Parse(actions[1]) == y)
                 {
-                    int[] a = Calc(z, x, y, N, int.Parse(action[2]), int.Parse(action[1]));
+                    int[] a = Calc(z, x, N, -1 * int.Parse(actions[2]));
                     z = a[0];
                     x = a[1];
                 }
             }
-            Console.WriteLine($"Мой ответ: {x} {y} {z} | Входящий файл: {files[i]}");
-            Console.WriteLine("Ответы: " + System.IO.File.ReadAllText(files[i + 20]) + $" | Файл с ответами {files[i + 20]}\n");
+            Console.Write($"Получившийся ответ в {FileNames[j].ToString()}: {x} {y} {z} \n");
+            Console.WriteLine($"Ответ из решения({FileNames[j + 20].ToString()}) : " + System.IO.File.ReadAllLines(PATH + "/" + FileNames[j + 20].ToString())[0] + "\n");
         }
-    }
-    static int[] Calc(int cord1, int cord2, int cord3, int N, int dir, int K)
-    {
-        int num1 = cord1, num2 = cord2;
-        if (cord3 == K)
-        {
-            num1 = (dir == 1) ? cord2 : (N - cord2 + 1);
-            num2 = (dir == 1) ? (N - cord1 + 1) : cord1;
-        }
-        return new int[] { num1, num2 };
     }
 }
