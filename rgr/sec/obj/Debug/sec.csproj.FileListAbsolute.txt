@@ -5,3 +5,10 @@ C:\Users\Егор\Desktop\Uni\RGR\RGR\rgr\sec\bin\Debug\sec.exe
 C:\Users\Егор\Desktop\Uni\RGR\RGR\rgr\sec\bin\Debug\sec.pdb
 C:\Users\Егор\Desktop\Uni\RGR\RGR\rgr\sec\obj\Debug\sec.exe
 C:\Users\Егор\Desktop\Uni\RGR\RGR\rgr\sec\obj\Debug\sec.pdb
+C:\Users\ogyrc\Desktop\unik doma\RGR\rgr\sec\bin\Debug\sec.exe.config
+C:\Users\ogyrc\Desktop\unik doma\RGR\rgr\sec\bin\Debug\sec.exe
+C:\Users\ogyrc\Desktop\unik doma\RGR\rgr\sec\bin\Debug\sec.pdb
+C:\Users\ogyrc\Desktop\unik doma\RGR\rgr\sec\obj\Debug\sec.csproj.AssemblyReference.cache
+C:\Users\ogyrc\Desktop\unik doma\RGR\rgr\sec\obj\Debug\sec.csproj.CoreCompileInputs.cache
+C:\Users\ogyrc\Desktop\unik doma\RGR\rgr\sec\obj\Debug\sec.exe
+C:\Users\ogyrc\Desktop\unik doma\RGR\rgr\sec\obj\Debug\sec.pdb

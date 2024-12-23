@@ -1,0 +1,2 @@
+C:\Users\ogyrc\Desktop\unik doma\RGR\rgr\fourth\obj\Debug\fourth.csproj.AssemblyReference.cache
+C:\Users\ogyrc\Desktop\unik doma\RGR\rgr\fourth\obj\Debug\fourth.csproj.CoreCompileInputs.cache

@@ -5,3 +5,10 @@ C:\Users\Егор\Desktop\Uni\RGR\RGR\rgr\first_ex\obj\Debug\first_ex.csproj.Ass
 C:\Users\Егор\Desktop\Uni\RGR\RGR\rgr\first_ex\obj\Debug\first_ex.csproj.CoreCompileInputs.cache
 C:\Users\Егор\Desktop\Uni\RGR\RGR\rgr\first_ex\obj\Debug\first_ex.exe
 C:\Users\Егор\Desktop\Uni\RGR\RGR\rgr\first_ex\obj\Debug\first_ex.pdb
+C:\Users\ogyrc\Desktop\unik doma\RGR\rgr\first_ex\bin\Debug\first_ex.exe.config
+C:\Users\ogyrc\Desktop\unik doma\RGR\rgr\first_ex\bin\Debug\first_ex.exe
+C:\Users\ogyrc\Desktop\unik doma\RGR\rgr\first_ex\bin\Debug\first_ex.pdb
+C:\Users\ogyrc\Desktop\unik doma\RGR\rgr\first_ex\obj\Debug\first_ex.csproj.AssemblyReference.cache
+C:\Users\ogyrc\Desktop\unik doma\RGR\rgr\first_ex\obj\Debug\first_ex.csproj.CoreCompileInputs.cache
+C:\Users\ogyrc\Desktop\unik doma\RGR\rgr\first_ex\obj\Debug\first_ex.exe
+C:\Users\ogyrc\Desktop\unik doma\RGR\rgr\first_ex\obj\Debug\first_ex.pdb

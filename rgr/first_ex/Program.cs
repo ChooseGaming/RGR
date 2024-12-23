@@ -29,7 +29,7 @@ class program
                     num = j;
                 }
             }
-            Console.WriteLine("Ответ: " + num +" " + Min);
+            Console.WriteLine("Ответ: " + num +" " + Min.ToString().Replace(',', '.'));
             Console.WriteLine("output file: " + System.IO.File.ReadAllLines(path + "/" + a[i + 10])[0] + "\n");
         }
     }
